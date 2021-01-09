@@ -20,7 +20,7 @@ enum Quadrants{
 	// new operator is illegal to create a obj for enum(both inside and outside of a class)
 	// hence construct for enum class should be private 
 	// constants in enum (static by default are the instance of enum class in which these belongs)
-	// these constants  can us constructor implicitly
+	// these constants  can use constructor implicitly
 	private Quadrants(String info) {
 		this.info = info;
 	}
